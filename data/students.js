@@ -1,4 +1,4 @@
-const students = [
+const student = [
   {
     ""name"": ""A M Muntasir Rahman"",
     ""email"": ""ar238@njit.edu"",
