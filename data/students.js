@@ -44,7 +44,7 @@ export const students = [
         github: "https://github.com/CYANG322"
     },
     {
-        name: "Chun Jie "Michael" Chong",
+        name: "Chun Jie (Michael) Chong",
         email: "cc255@njit.edu",
         linkedin: "https://www.linkedin.com/in/chun-jie-chong/",
         scholar: "https://scholar.google.com/citations?user=2Fi_er8AAAAJ&hl=en&oi=ao"
