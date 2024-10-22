@@ -28,7 +28,7 @@ export const students = [
     {
         name: "Arash Moradi-Karkaj",
         email: "am3493@njit.edu",
-        webpage: "amoradi.github.io",
+        webpage: "https://amoradi.github.io",
         linkedin: "https://www.linkedin.com/in/moradiarash/",
         scholar: "https://scholar.google.com/citations?hl=en&user=GNJwTSMAAAAJ",
         github: "https://github.com/thearash"
@@ -36,7 +36,7 @@ export const students = [
     {
         name: "Danzel Serrano",
         email: "ds867@njit.edu",
-        webpage: "dependanz.github.io",
+        webpage: "https://dependanz.github.io",
         linkedin: "https://www.linkedin.com/in/danzel-serrano-542870181",
         scholar: "https://scholar.google.com/citations?user=L44bua4AAAAJ",
         github: "https://github.com/dependanz"
@@ -52,7 +52,7 @@ export const students = [
     {
         name: "Suraj K. Ojha",
         email: "so299@njit.edu",
-        webpage: "sko.com.np",
+        webpage: "https://sko.com.np",
         linkedin: "https://www.linkedin.com/in/suraj-ojha/?originalSubdomain=np",
         github: "https://github.com/Suraez"
     },
@@ -87,7 +87,7 @@ export const students = [
     {
         name: "Hamideh Sabaei",
         email: "hs833@njit.edu",
-        linkedin: "www.linkedin.com/in/hamideh-sabaei"
+        linkedin: "https://www.linkedin.com/in/hamideh-sabaei"
     },
     {
         name: "Akhitha S. Manjitha",
@@ -208,7 +208,7 @@ export const students = [
     {
         name: "Huu Phuoc Dang",
         email: "pd468@njit.edu",
-        webpage: "iphuocdang.com",
+        webpage: "https://iphuocdang.com",
         linkedin: "https://www.linkedin.com/in/huu-phuoc-dang-14681a174/",
         scholar: "https://scholar.google.com/citations?user=3v5mJX0AAAAJ&hl=en&authuser=3",
         github: "https://github.com/phuoc-dang01"
@@ -222,7 +222,7 @@ export const students = [
     {
         name: "Chengyu Yang",
         email: "cy322@njit.edu",
-        linkedin: "www.linkedin.com/in/chengyu-yang-754259329",
+        linkedin: "https://www.linkedin.com/in/chengyu-yang-754259329",
         github: "https://github.com/CYANG322"
     },
     {
@@ -234,7 +234,7 @@ export const students = [
     {
         name: "Azadeh Naderi",
         email: "an57@njit.edu",
-        linkedin: "www.linkedin.com/in/azadeh-naderi-634091227",
+        linkedin: "https://www.linkedin.com/in/azadeh-naderi-634091227",
         scholar: "https://scholar.google.com/citations?user=HBinzBsAAAAJ&hl=en",
         github: "https://github.com/azadehn"
     },
@@ -266,5 +266,11 @@ export const students = [
         linkedin: "https://www.linkedin.com/in/khang4dang/",
         scholar: "https://scholar.google.com/citations?user=LG5AhT4AAAAJ&hl=en",
         github: "https://github.com/khang4dang"
+    },
+    {
+        name: "Tongxin Lily Li",
+        email: "tl434@njit.edu",
+        linkedin: "https://www.linkedin.com/in/litongxin/",
+        scholar: "https://scholar.google.com/citations?hl=en&user=jBreGf0AAAAJ"
     },
 ];
