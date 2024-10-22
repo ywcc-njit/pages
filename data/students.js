@@ -19,11 +19,35 @@ export const students = [
         github: "https://github.com/asmanjitha"
     },
     {
+        name: "Alireza Ardalani",
+        email: "aa3564@njit.edu",
+        linkedin: "https://www.linkedin.com/in/alireza-ardalani/",
+        github: "https://github.com/Alireza-Ardalani",
+        scholar: "https://scholar.google.com/citations?hl=en&user=x6YCVEgAAAAJ"
+    },
+    {
         name: "Arash Moradi-Karkaj",
         email: "am3493@njit.edu",
         linkedin: "https://www.linkedin.com/in/moradiarash/",
         github: "https://github.com/thearash",
         scholar: "https://scholar.google.com/citations?hl=en&user=GNJwTSMAAAAJ"
+    },
+    {
+        name: "Azadeh Naderi",
+        email: "an57@njit.edu",
+        github: "https://github.com/azadehn",
+        scholar: "https://scholar.google.com/citations?user=HBinzBsAAAAJ&hl=en"
+    },
+    {
+        name: "Chengyu Yang",
+        email: "cy322@njit.edu",
+        github: "https://github.com/CYANG322"
+    },
+    {
+        name: "Chun Jie "Michael" Chong",
+        email: "cc255@njit.edu",
+        linkedin: "https://www.linkedin.com/in/chun-jie-chong/",
+        scholar: "https://scholar.google.com/citations?user=2Fi_er8AAAAJ&hl=en&oi=ao"
     },
     {
         name: "Cong Qi",
@@ -42,8 +66,6 @@ export const students = [
     {
         name: "Erica Zhou",
         email: "sz23@njit.edu",
-        webpage: "https://ericass.github.io",
-        linkedin: "https://www.linkedin.com/in/shuxin-erica-z-a98b8a73/",
         scholar: "https://scholar.google.com/citations?user=Gowiv4oAAAAJ&hl=en&authuser=1"
     },
     {
@@ -76,6 +98,21 @@ export const students = [
         email: "hs833@njit.edu"
     },
     {
+        name: "Hanzhang Fang",
+        email: "hf78@njit.edu"
+    },
+    {
+        name: "Hongyang Zhang",
+        email: "hz372@njit.edu"
+    },
+    {
+        name: "Huu Phuoc Dang",
+        email: "pd468@njit.edu",
+        linkedin: "https://www.linkedin.com/in/huu-phuoc-dang-14681a174/",
+        github: "https://github.com/phuoc-dang01",
+        scholar: "https://scholar.google.com/citations?user=3v5mJX0AAAAJ&hl=en&authuser=3"
+    },
+    {
         name: "Jiayi Chen (Derek) ",
         email: "jc2693@njit.edu",
         linkedin: "https://www.linkedin.com/in/jiayic/",
@@ -88,6 +125,24 @@ export const students = [
         linkedin: "https://www.linkedin.com/in/jingyi-gu/",
         github: "https://github.com/JingyiGu",
         scholar: "https://scholar.google.com/citations?user=rZOW2IEAAAAJ&hl=en"
+    },
+    {
+        name: "Khang Dang",
+        email: "khd3@njit.edu",
+        linkedin: "https://www.linkedin.com/in/khang4dang/",
+        github: "https://github.com/khang4dang",
+        scholar: "https://scholar.google.com/citations?user=LG5AhT4AAAAJ&hl=en"
+    },
+    {
+        name: "Mohammad Dindoost",
+        email: "md724@njit.edu",
+        linkedin: "https://www.linkedin.com/in/mohammad-dindoost-25b90011/",
+        github: "https://github.com/mdindoost",
+        scholar: "https://scholar.google.com/citations?user=Wp_gg9kAAAAJ&hl=en"
+    },
+    {
+        name: "Mohith Oduru",
+        email: "mo298@njit.edu"
     },
     {
         name: "Muhid Hassan Risvy",
@@ -118,6 +173,12 @@ export const students = [
         scholar: "https://scholar.google.com/citations?hl=en&user=EVKeaCEAAAAJ"
     },
     {
+        name: "Rikesh Niroula",
+        email: "rn382@njit.edu",
+        linkedin: "https://www.linkedin.com/in/rikeshniroula/",
+        github: "https://github.com/im-rikesh"
+    },
+    {
         name: "Sabbir Ahmed Saqlain",
         email: "ss4738@njit.edu",
         webpage: "https://sabbirahmedsaqlain.github.io",
@@ -128,6 +189,7 @@ export const students = [
     {
         name: "Sohrab Namazi Nia",
         email: "sn773@njit.edu",
+        webpage: "https://sohrabnamazinia.github.io/",
         linkedin: "https://www.linkedin.com/in/sohrabnamazinia",
         github: "https://github.com/sohrabnamazinia",
         scholar: "https://scholar.google.com/citations?hl=en&user=6S4ilWIAAAAJ"
@@ -164,6 +226,16 @@ export const students = [
         github: "https://github.com/tapanbasak12"
     },
     {
+        name: "Wei Yao",
+        email: "wy95@njit.edu",
+        webpage: "https://wyaobiz.github.io/",
+        github: "https://github.com/wYaobiz"
+    },
+    {
+        name: "Xiaoliang Wu",
+        email: "xw54@njit.edu"
+    },
+    {
         name: "Xinyun Zhao",
         email: "xz43@njit.edu",
         linkedin: "https://www.linkedin.com/in/xinyun-zhao-salakri/",
@@ -185,10 +257,6 @@ export const students = [
         email: "ap2248@njit.edu"
     },
     {
-        name: "Alireza Ardalani",
-        email: "aa3564@njit.edu"
-    },
-    {
         name: "Anik Pramanik",
         email: "ap2645@njit.edu"
     },
@@ -197,24 +265,12 @@ export const students = [
         email: "ad892@njit.edu"
     },
     {
-        name: "Azadeh Naderi",
-        email: "an57@njit.edu"
-    },
-    {
-        name: "Chengyu Yang",
-        email: "cy322@njit.edu"
-    },
-    {
         name: "Chenxi Hou",
         email: "ch395@njit.edu"
     },
     {
         name: "Ching-Hao Fan",
         email: "cf322@njit.edu"
-    },
-    {
-        name: "Chun Jie Chong",
-        email: "cc255@njit.edu"
     },
     {
         name: "Chunhui Xu",
@@ -253,10 +309,6 @@ export const students = [
         email: "at738@njit.edu"
     },
     {
-        name: "Hanzhang Fang",
-        email: "hf78@njit.edu"
-    },
-    {
         name: "Hao Xu",
         email: "hx8@njit.edu"
     },
@@ -275,10 +327,6 @@ export const students = [
     {
         name: "Haotian Yin",
         email: "hy9@njit.edu"
-    },
-    {
-        name: "Hongyang Zhang",
-        email: "hz372@njit.edu"
     },
     {
         name: "Jialiang Li",
@@ -341,10 +389,6 @@ export const students = [
         email: "mss87@njit.edu"
     },
     {
-        name: "Mohammad Dindoost",
-        email: "md724@njit.edu"
-    },
-    {
         name: "Naidan Zhang",
         email: "nz85@njit.edu"
     },
@@ -363,10 +407,6 @@ export const students = [
     {
         name: "Quijing Wang",
         email: "qw26@njit.edu"
-    },
-    {
-        name: "Rikesh Niroula",
-        email: "rn382@njit.edu"
     },
     {
         name: "Ryan Lee",
@@ -395,14 +435,6 @@ export const students = [
     {
         name: "Tianxing Hu",
         email: "th367@njit.edu"
-    },
-    {
-        name: "Wei Yao",
-        email: "wy95@njit.edu"
-    },
-    {
-        name: "Xiaoliang Wu",
-        email: "xw54@njit.edu"
     },
     {
         name: "Xuan Zhang",
