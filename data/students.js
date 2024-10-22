@@ -1,29 +1,29 @@
 export const students = [
     {
-        name: "Haiyan Zhao",
-        email: "hz54@njit.edu",
-        webpage: "https://hy-zhao23.github.io/",
-        scholar: "https://scholar.google.com/citations?user=9FobigIAAAAJ&hl=en",
-        github: "https://github.com/hy-zhao23"
+        name: "A M Muntasir Rahman",
+        email: "ar238@njit.edu",
+        webpage: "https://sites.google.com/njit.edu/ammuntasirrahman/",
+        linkedin: "https://www.linkedin.com/in/a-m-muntasir-rahman/",
+        scholar: "https://scholar.google.com/citations?user=_inhYXAAAAAJ&hl=en"
     },
     {
-        name: "Sohrab Namazi Nia",
-        email: "sn773@njit.edu",
-        webpage: "https://sohrabnamazinia.github.io/",
-        linkedin: "https://www.linkedin.com/in/sohrabnamazinia",
-        scholar: "https://scholar.google.com/citations?hl=en&user=6S4ilWIAAAAJ",
-        github: "https://github.com/sohrabnamazinia"
+        name: "Ahmad Alemari",
+        email: "aaa376@njit.edu",
+        linkedin: "https://www.linkedin.com/in/ahmad-alemari-927661121/"
     },
     {
-        name: "Subhodeep Ghosh",
-        email: "sg2646@njit.edu",
-        scholar: "https://scholar.google.com/citations?user=bw2cW1UAAAAJ&hl=en",
-        github: "https://github.com/Subhodeep01"
+        name: "Akhitha S. Manjitha",
+        email: "asm277@njit.edu",
+        webpage: "https://asmanjitha.github.io/Akhitha_Manjitha/",
+        linkedin: "https://www.linkedin.com/in/asmanjitha",
+        github: "https://github.com/asmanjitha"
     },
     {
-        name: "Fatemeh Ramezani Khozestani",
-        email: "fr46@njit.edu",
-        linkedin: "http://linkedin.com/in/fatemehramezanikhozestani"
+        name: "Alireza Ardalani",
+        email: "aa3564@njit.edu",
+        linkedin: "https://www.linkedin.com/in/alireza-ardalani/",
+        scholar: "https://scholar.google.com/citations?hl=en&user=x6YCVEgAAAAJ",
+        github: "https://github.com/Alireza-Ardalani"
     },
     {
         name: "Arash Moradi-Karkaj",
@@ -34,67 +34,23 @@ export const students = [
         github: "https://github.com/thearash"
     },
     {
-        name: "Danzel Serrano",
-        email: "ds867@njit.edu",
-        webpage: "https://dependanz.github.io",
-        linkedin: "https://www.linkedin.com/in/danzel-serrano-542870181",
-        scholar: "https://scholar.google.com/citations?user=L44bua4AAAAJ",
-        github: "https://github.com/dependanz"
+        name: "Azadeh Naderi",
+        email: "an57@njit.edu",
+        linkedin: "https://www.linkedin.com/in/azadeh-naderi-634091227",
+        scholar: "https://scholar.google.com/citations?user=HBinzBsAAAAJ&hl=en",
+        github: "https://github.com/azadehn"
     },
     {
-        name: "Muhid Hassan Risvy",
-        email: "mr2229@njit.edu",
-        webpage: "https://risvy.github.io//",
-        linkedin: "https://www.linkedin.com/in/muhid-hassan-risvy-16895a198/",
-        scholar: "https://scholar.google.com/citations?hl=en&user=9tYrjh8AAAAJ",
-        github: "https://github.com/Risvy"
+        name: "Chengyu Yang",
+        email: "cy322@njit.edu",
+        linkedin: "https://www.linkedin.com/in/chengyu-yang-754259329",
+        github: "https://github.com/CYANG322"
     },
     {
-        name: "Suraj K. Ojha",
-        email: "so299@njit.edu",
-        webpage: "https://sko.com.np",
-        linkedin: "https://www.linkedin.com/in/suraj-ojha/?originalSubdomain=np",
-        github: "https://github.com/Suraez"
-    },
-    {
-        name: "Genwei Zhang",
-        email: "gz6@njit.edu",
-        webpage: "https://genwei-zhang.github.io/resume/",
-        linkedin: "https://www.linkedin.com/in/genwei-zhang-4736b61a0/",
-        scholar: "https://scholar.google.com/citations?user=_B56DB4AAAAJ&hl=en",
-        github: "https://github.com/Genwei-Zhang"
-    },
-    {
-        name: "Ahmad Alemari",
-        email: "aaa376@njit.edu",
-        linkedin: "https://www.linkedin.com/in/ahmad-alemari-927661121/"
-    },
-    {
-        name: "Soroush Vahidi",
-        email: "sv96@njit.edu",
-        webpage: "https://www.webofscience.com/wos/author/record/GMW-8958-2022",
-        linkedin: "https://www.linkedin.com/in/soroush-vahidi/",
-        scholar: "https://scholar.google.com/citations?user=GNk1ajUAAAAJ&hl=en",
-        github: "https://github.com/SoroushVahidi"
-    },
-    {
-        name: "A M Muntasir Rahman",
-        email: "ar238@njit.edu",
-        webpage: "https://sites.google.com/njit.edu/ammuntasirrahman/",
-        linkedin: "https://www.linkedin.com/in/a-m-muntasir-rahman/",
-        scholar: "https://scholar.google.com/citations?user=_inhYXAAAAAJ&hl=en"
-    },
-    {
-        name: "Hamideh Sabaei",
-        email: "hs833@njit.edu",
-        linkedin: "https://www.linkedin.com/in/hamideh-sabaei"
-    },
-    {
-        name: "Akhitha S. Manjitha",
-        email: "asm277@njit.edu",
-        webpage: "https://asmanjitha.github.io/Akhitha_Manjitha/",
-        linkedin: "https://www.linkedin.com/in/asmanjitha",
-        github: "https://github.com/asmanjitha"
+        name: "Chun Jie (Michael) Chong",
+        email: "cc255@njit.edu",
+        linkedin: "https://www.linkedin.com/in/chun-jie-chong/",
+        scholar: "https://scholar.google.com/citations?user=2Fi_er8AAAAJ&hl=en&oi=ao"
     },
     {
         name: "Cong Qi",
@@ -105,50 +61,12 @@ export const students = [
         github: "https://github.com/MineSelf2016"
     },
     {
-        name: "Yeqing Chen",
-        email: "yc598@njit.edu",
-        scholar: "https://scholar.google.com/citations?user=26nuDHUAAAAJ"
-    },
-    {
-        name: "Xinyun Zhao",
-        email: "xz43@njit.edu",
-        linkedin: "https://www.linkedin.com/in/xinyun-zhao-salakri/",
-        github: "https://github.com/Salakri"
-    },
-    {
-        name: "Swastik Biswas",
-        email: "sb2785@njit.edu",
-        webpage: "https://www.swastikbiswas.me/",
-        linkedin: "https://www.linkedin.com/in/swastikbiswas/",
-        scholar: "https://scholar.google.co.uk/citations?user=KZ-CZF4AAAAJ&hl",
-        github: "https://github.com/Swastik1993"
-    },
-    {
-        name: "Yucong Shen",
-        email: "ys496@njit.edu",
-        webpage: "https://sites.google.com/view/yucongshen",
-        scholar: "https://scholar.google.com/citations?user=qCtfvm0AAAAJ&hl=en"
-    },
-    {
-        name: "Muyeed Ahmed",
-        email: "ma234@njit.edu",
-        webpage: "https://web.njit.edu/~ma234/",
-        linkedin: "https://www.linkedin.com/in/muyeed-ahmed/",
-        scholar: "https://scholar.google.com/citations?user=YBPPO0gAAAAJ&hl=en",
-        github: "https://github.com/MuyeedAhmed"
-    },
-    {
-        name: "Jiayi Chen (Derek) ",
-        email: "jc2693@njit.edu",
-        linkedin: "https://www.linkedin.com/in/jiayic/",
-        github: "https://github.com/jiayiderekchen"
-    },
-    {
-        name: "Qiufan Ji",
-        email: "qj39@njit.edu",
-        webpage: "https://qiufanji.com/",
-        scholar: "https://scholar.google.com/citations?hl=en&user=EVKeaCEAAAAJ",
-        github: "https://github.com/qiufan319"
+        name: "Danzel Serrano",
+        email: "ds867@njit.edu",
+        webpage: "https://dependanz.github.io",
+        linkedin: "https://www.linkedin.com/in/danzel-serrano-542870181",
+        scholar: "https://scholar.google.com/citations?user=L44bua4AAAAJ",
+        github: "https://github.com/dependanz"
     },
     {
         name: "Erica Zhou",
@@ -156,54 +74,42 @@ export const students = [
         scholar: "https://scholar.google.com/citations?user=Gowiv4oAAAAJ&hl=en&authuser=1"
     },
     {
-        name: "Jingyi Gu",
-        email: "jg95@njit.edu",
-        webpage: "https://jingyigu.github.io/homepage.github.io//",
-        linkedin: "https://www.linkedin.com/in/jingyi-gu/",
-        scholar: "https://scholar.google.com/citations?user=rZOW2IEAAAAJ&hl=en",
-        github: "https://github.com/JingyiGu"
-    },
-    {
-        name: "Sabbir Ahmed Saqlain",
-        email: "ss4738@njit.edu",
-        webpage: "https://sabbirahmedsaqlain.github.io",
-        linkedin: "https://www.linkedin.com/in/sabbir-ahmed-saqlain/",
-        scholar: "https://scholar.google.com/citations?user=9C9dTI4AAAAJ",
-        github: "https://github.com/SabbirAhmedSaqlain"
-    },
-    {
-        name: "Oliver Alvarado Rodriguez",
-        email: "oaa9@njit.edu",
-        webpage: "https://www.oliveralvaradorodriguez.net/",
-        linkedin: "https://www.linkedin.com/in/oliver-alvarado-rod/",
-        scholar: "https://scholar.google.com/citations?user=dV5vV3gAAAAJ&hl=en",
-        github: "https://github.com/alvaradoo"
-    },
-    {
         name: "Fan Yang",
         email: "fy34@njit.edu",
         webpage: "https://yangegp.github.io/"
     },
     {
-        name: "Tapan Basak",
-        email: "tb358@njit.edu",
-        linkedin: "https://www.linkedin.com/tapanbasak12",
-        github: "https://github.com/tapanbasak12"
+        name: "Fatemeh Ramezani Khozestani",
+        email: "fr46@njit.edu",
+        linkedin: "http://linkedin.com/in/fatemehramezanikhozestani"
+    },
+    {
+        name: "Genwei Zhang",
+        email: "gz6@njit.edu",
+        webpage: "https://genwei-zhang.github.io/resume/",
+        linkedin: "https://www.linkedin.com/in/genwei-zhang-4736b61a0/",
+        scholar: "https://scholar.google.com/citations?user=_B56DB4AAAAJ&hl=en",
+        github: "https://github.com/Genwei-Zhang"
+    },
+    {
+        name: "Haiyan Zhao",
+        email: "hz54@njit.edu",
+        webpage: "https://hy-zhao23.github.io/",
+        scholar: "https://scholar.google.com/citations?user=9FobigIAAAAJ&hl=en",
+        github: "https://github.com/hy-zhao23"
+    },
+    {
+        name: "Hamideh Sabaei",
+        email: "hs833@njit.edu",
+        linkedin: "https://www.linkedin.com/in/hamideh-sabaei"
     },
     {
         name: "Hanzhang Fang",
         email: "hf78@njit.edu"
     },
     {
-        name: "Mohith Oduru",
-        email: "mo298@njit.edu"
-    },
-    {
-        name: "Mohammad Dindoost",
-        email: "md724@njit.edu",
-        linkedin: "https://www.linkedin.com/in/mohammad-dindoost-25b90011/",
-        scholar: "https://scholar.google.com/citations?user=Wp_gg9kAAAAJ&hl=en",
-        github: "https://github.com/mdindoost"
+        name: "Hongyang Zhang",
+        email: "hz372@njit.edu"
     },
     {
         name: "Huu Phuoc Dang",
@@ -214,50 +120,18 @@ export const students = [
         github: "https://github.com/phuoc-dang01"
     },
     {
-        name: "Wei Yao",
-        email: "wy95@njit.edu",
-        webpage: "https://wyaobiz.github.io/",
-        github: "https://github.com/wYaobiz"
+        name: "Jiayi Chen (Derek) ",
+        email: "jc2693@njit.edu",
+        linkedin: "https://www.linkedin.com/in/jiayic/",
+        github: "https://github.com/jiayiderekchen"
     },
     {
-        name: "Chengyu Yang",
-        email: "cy322@njit.edu",
-        linkedin: "https://www.linkedin.com/in/chengyu-yang-754259329",
-        github: "https://github.com/CYANG322"
-    },
-    {
-        name: "Rikesh Niroula",
-        email: "rn382@njit.edu",
-        linkedin: "https://www.linkedin.com/in/rikeshniroula/",
-        github: "https://github.com/im-rikesh"
-    },
-    {
-        name: "Azadeh Naderi",
-        email: "an57@njit.edu",
-        linkedin: "https://www.linkedin.com/in/azadeh-naderi-634091227",
-        scholar: "https://scholar.google.com/citations?user=HBinzBsAAAAJ&hl=en",
-        github: "https://github.com/azadehn"
-    },
-    {
-        name: "Alireza Ardalani",
-        email: "aa3564@njit.edu",
-        linkedin: "https://www.linkedin.com/in/alireza-ardalani/",
-        scholar: "https://scholar.google.com/citations?hl=en&user=x6YCVEgAAAAJ",
-        github: "https://github.com/Alireza-Ardalani"
-    },
-    {
-        name: "Xiaoliang Wu",
-        email: "xw54@njit.edu"
-    },
-    {
-        name: "Chun Jie (Michael) Chong",
-        email: "cc255@njit.edu",
-        linkedin: "https://www.linkedin.com/in/chun-jie-chong/",
-        scholar: "https://scholar.google.com/citations?user=2Fi_er8AAAAJ&hl=en&oi=ao"
-    },
-    {
-        name: "Hongyang Zhang",
-        email: "hz372@njit.edu"
+        name: "Jingyi Gu",
+        email: "jg95@njit.edu",
+        webpage: "https://jingyigu.github.io/homepage.github.io//",
+        linkedin: "https://www.linkedin.com/in/jingyi-gu/",
+        scholar: "https://scholar.google.com/citations?user=rZOW2IEAAAAJ&hl=en",
+        github: "https://github.com/JingyiGu"
     },
     {
         name: "Khang Dang",
@@ -268,9 +142,329 @@ export const students = [
         github: "https://github.com/khang4dang"
     },
     {
-        name: "Tongxin Lily Li",
-        email: "tl434@njit.edu",
-        linkedin: "https://www.linkedin.com/in/litongxin/",
-        scholar: "https://scholar.google.com/citations?hl=en&user=jBreGf0AAAAJ"
+        name: "Mohammad Dindoost",
+        email: "md724@njit.edu",
+        linkedin: "https://www.linkedin.com/in/mohammad-dindoost-25b90011/",
+        scholar: "https://scholar.google.com/citations?user=Wp_gg9kAAAAJ&hl=en",
+        github: "https://github.com/mdindoost"
+    },
+    {
+        name: "Mohith Oduru",
+        email: "mo298@njit.edu"
+    },
+    {
+        name: "Muhid Hassan Risvy",
+        email: "mr2229@njit.edu",
+        webpage: "https://risvy.github.io//",
+        linkedin: "https://www.linkedin.com/in/muhid-hassan-risvy-16895a198/",
+        scholar: "https://scholar.google.com/citations?hl=en&user=9tYrjh8AAAAJ",
+        github: "https://github.com/Risvy"
+    },
+    {
+        name: "Muyeed Ahmed",
+        email: "ma234@njit.edu",
+        webpage: "https://web.njit.edu/~ma234/",
+        linkedin: "https://www.linkedin.com/in/muyeed-ahmed/",
+        scholar: "https://scholar.google.com/citations?user=YBPPO0gAAAAJ&hl=en",
+        github: "https://github.com/MuyeedAhmed"
+    },
+    {
+        name: "Oliver Alvarado Rodriguez",
+        email: "oaa9@njit.edu",
+        webpage: "https://www.oliveralvaradorodriguez.net/",
+        linkedin: "https://www.linkedin.com/in/oliver-alvarado-rod/",
+        scholar: "https://scholar.google.com/citations?user=dV5vV3gAAAAJ&hl=en",
+        github: "https://github.com/alvaradoo"
+    },
+    {
+        name: "Qiufan Ji",
+        email: "qj39@njit.edu",
+        webpage: "https://qiufanji.com/",
+        scholar: "https://scholar.google.com/citations?hl=en&user=EVKeaCEAAAAJ",
+        github: "https://github.com/qiufan319"
+    },
+    {
+        name: "Rikesh Niroula",
+        email: "rn382@njit.edu",
+        linkedin: "https://www.linkedin.com/in/rikeshniroula/",
+        github: "https://github.com/im-rikesh"
+    },
+    {
+        name: "Sabbir Ahmed Saqlain",
+        email: "ss4738@njit.edu",
+        webpage: "https://sabbirahmedsaqlain.github.io",
+        linkedin: "https://www.linkedin.com/in/sabbir-ahmed-saqlain/",
+        scholar: "https://scholar.google.com/citations?user=9C9dTI4AAAAJ",
+        github: "https://github.com/SabbirAhmedSaqlain"
+    },
+    {
+        name: "Sohrab Namazi Nia",
+        email: "sn773@njit.edu",
+        webpage: "https://sohrabnamazinia.github.io/",
+        linkedin: "https://www.linkedin.com/in/sohrabnamazinia",
+        scholar: "https://scholar.google.com/citations?hl=en&user=6S4ilWIAAAAJ",
+        github: "https://github.com/sohrabnamazinia"
+    },
+    {
+        name: "Soroush Vahidi",
+        email: "sv96@njit.edu",
+        webpage: "https://www.webofscience.com/wos/author/record/GMW-8958-2022",
+        linkedin: "https://www.linkedin.com/in/soroush-vahidi/",
+        scholar: "https://scholar.google.com/citations?user=GNk1ajUAAAAJ&hl=en",
+        github: "https://github.com/SoroushVahidi"
+    },
+    {
+        name: "Subhodeep Ghosh",
+        email: "sg2646@njit.edu",
+        scholar: "https://scholar.google.com/citations?user=bw2cW1UAAAAJ&hl=en",
+        github: "https://github.com/Subhodeep01"
+    },
+    {
+        name: "Suraj K. Ojha",
+        email: "so299@njit.edu",
+        webpage: "https://sko.com.np",
+        linkedin: "https://www.linkedin.com/in/suraj-ojha/?originalSubdomain=np",
+        github: "https://github.com/Suraez"
+    },
+    {
+        name: "Swastik Biswas",
+        email: "sb2785@njit.edu",
+        webpage: "https://www.swastikbiswas.me/",
+        linkedin: "https://www.linkedin.com/in/swastikbiswas/",
+        scholar: "https://scholar.google.co.uk/citations?user=KZ-CZF4AAAAJ&hl",
+        github: "https://github.com/Swastik1993"
+    },
+    {
+        name: "Tapan Basak",
+        email: "tb358@njit.edu",
+        linkedin: "https://www.linkedin.com/tapanbasak12",
+        github: "https://github.com/tapanbasak12"
+    },
+    {
+        name: "Wei Yao",
+        email: "wy95@njit.edu",
+        webpage: "https://wyaobiz.github.io/",
+        github: "https://github.com/wYaobiz"
+    },
+    {
+        name: "Xiaoliang Wu",
+        email: "xw54@njit.edu"
+    },
+    {
+        name: "Xinyun Zhao",
+        email: "xz43@njit.edu",
+        linkedin: "https://www.linkedin.com/in/xinyun-zhao-salakri/",
+        github: "https://github.com/Salakri"
+    },
+    {
+        name: "Yeqing Chen",
+        email: "yc598@njit.edu",
+        scholar: "https://scholar.google.com/citations?user=26nuDHUAAAAJ"
+    },
+    {
+        name: "Yucong Shen",
+        email: "ys496@njit.edu",
+        webpage: "https://sites.google.com/view/yucongshen",
+        scholar: "https://scholar.google.com/citations?user=qCtfvm0AAAAJ&hl=en"
+    },
+    {
+        name: "Ali Parviz",
+        email: "ap2248@njit.edu"
+    },
+    {
+        name: "Anik Pramanik",
+        email: "ap2645@njit.edu"
+    },
+    {
+        name: "Ankan Dash",
+        email: "ad892@njit.edu"
+    },
+    {
+        name: "Chenxi Hou",
+        email: "ch395@njit.edu"
+    },
+    {
+        name: "Ching-Hao Fan",
+        email: "cf322@njit.edu"
+    },
+    {
+        name: "Chunhui Xu",
+        email: "cx4@njit.edu"
+    },
+    {
+        name: "Craig Iaboni",
+        email: "csi3@njit.edu"
+    },
+    {
+        name: "Ehsan Beikihassan",
+        email: "eb283@njit.edu"
+    },
+    {
+        name: "Erfan Arvan",
+        email: "ea442@njit.edu"
+    },
+    {
+        name: "Erin Kenney",
+        email: "clk8@njit.edu"
+    },
+    {
+        name: "Fernando Vera Buschmann",
+        email: "fv54@njit.edu"
+    },
+    {
+        name: "Fuhuan Li",
+        email: "fl28@njit.edu"
+    },
+    {
+        name: "Glenn Merritt",
+        email: "gmm46@njit.edu"
+    },
+    {
+        name: "Hai An Tran",
+        email: "at738@njit.edu"
+    },
+    {
+        name: "Hao Xu",
+        email: "hx8@njit.edu"
+    },
+    {
+        name: "Hao Zhou",
+        email: "hz394@njit.edu"
+    },
+    {
+        name: "Haoran Liu",
+        email: "hl425@njit.edu"
+    },
+    {
+        name: "Haoshu Lu",
+        email: "hl58@njit.edu"
+    },
+    {
+        name: "Haotian Yin",
+        email: "hy9@njit.edu"
+    },
+    {
+        name: "Jialiang Li",
+        email: "jl2356@njit.edu"
+    },
+    {
+        name: "Jianlan Ren",
+        email: "jr689@njit.edu"
+    },
+    {
+        name: "Junyi Ye",
+        email: "jy394@njit.edu"
+    },
+    {
+        name: "Kazi Amanul Islam Siddiqui",
+        email: "ks225@njit.edu"
+    },
+    {
+        name: "Khoa Nguyen",
+        email: "nk569@njit.edu"
+    },
+    {
+        name: "Kim Thinh On",
+        email: "to58@njit.edu"
+    },
+    {
+        name: "Komal Kumari",
+        email: "kk675@njit.edu"
+    },
+    {
+        name: "Kuang Du",
+        email: "kd226@njit.edu"
+    },
+    {
+        name: "Le Gao",
+        email: "lg282@njit.edu"
+    },
+    {
+        name: "Mahshad Koohi Habibi Dehkordi",
+        email: "mk985@njit.edu"
+    },
+    {
+        name: "Mahya Samdaliri",
+        email: "ms3539@njit.edu"
+    },
+    {
+        name: "Mayooran Thavendra",
+        email: "mt658@njit.edu"
+    },
+    {
+        name: "Md Rakibul Hasan",
+        email: "mh629@njit.edu"
+    },
+    {
+        name: "Mehri RezaeiAliabadi",
+        email: "mr882@njit.edu"
+    },
+    {
+        name: "Mehtab Sidhu",
+        email: "mss87@njit.edu"
+    },
+    {
+        name: "Naidan Zhang",
+        email: "nz85@njit.edu"
+    },
+    {
+        name: "Naren Khatwani",
+        email: "nk88@njit.edu"
+    },
+    {
+        name: "Patrick O'Keefe",
+        email: "pmo6@njit.edu"
+    },
+    {
+        name: "Pritam Sen",
+        email: "ps37@njit.edu"
+    },
+    {
+        name: "Quijing Wang",
+        email: "qw26@njit.edu"
+    },
+    {
+        name: "Ryan Lee",
+        email: "rl293@njit.edu"
+    },
+    {
+        name: "Sha Cao",
+        email: "sc2772@njit.edu"
+    },
+    {
+        name: "Shameen Shrestha",
+        email: "ss5375@njit.edu"
+    },
+    {
+        name: "Shaoze Fan",
+        email: "sf392@njit.edu"
+    },
+    {
+        name: "Shen Fan",
+        email: "sf269@njit.edu"
+    },
+    {
+        name: "Siqi Jiang",
+        email: "sj225@njit.edu"
+    },
+    {
+        name: "Tianxing Hu",
+        email: "th367@njit.edu"
+    },
+    {
+        name: "Xuan Zhang",
+        email: "xz296@njit.edu"
+    },
+    {
+        name: "Xuxiang Zhang",
+        email: "xz445@njit.edu"
+    },
+    {
+        name: "Zhaoxin Yan",
+        email: "zy7@njit.edu"
+    },
+    {
+        name: "Zhenduo Wang",
+        email: "zw37@njit.edu"
     },
 ];
