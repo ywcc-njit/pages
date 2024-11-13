@@ -1,0 +1,143 @@
+import React, { useState } from 'react';
+import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Globe, ExternalLink } from 'lucide-react';
+
+const FacultyDirectory = () => {
+  const [selectedArea, setSelectedArea] = useState('all');
+
+  const facultyData = [
+    {
+      name: "David Bader",
+      webpage: "https://davidbader.net/",
+      areas: ["Artificial Intelligence", "High-Performance Computing", "Algorithms & Complexity", "Computational Biology & Bioinformatics"]
+    },
+    {
+      name: "Frank Shih",
+      webpage: "https://web.njit.edu/~shih/",
+      areas: ["Artificial Intelligence", "Computer Vision", "Machine Learning", "Natural Language Processing", "Visualization"]
+    },
+    {
+      name: "Ioannis Koutis",
+      webpage: "https://web.njit.edu/~ikoutis/",
+      areas: ["Artificial Intelligence", "Machine Learning", "Design Automation", "Algorithms & Complexity"]
+    },
+    {
+      name: "Mark Cartwright",
+      webpage: "https://markcartwright.com/",
+      areas: ["Artificial Intelligence", "Machine Learning", "Human-Computer Interaction", "Sound and Music Computing"]
+    },
+    {
+      name: "Iulian Neamtiu",
+      webpage: "https://web.njit.edu/~ineamtiu/",
+      areas: ["Machine Learning", "Computer Security", "Mobile Computing", "Programming Languages", "Software Engineering"]
+    },
+    {
+      name: "Nathan Malkin",
+      webpage: "https://malk.in",
+      areas: ["Computer Security", "Human-Computer Interaction"]
+    },
+    {
+      name: "Shantanu Sharma",
+      webpage: "https://web.njit.edu/~ss797/",
+      areas: ["Computer Security", "Databases", "Cryptography"]
+    },
+    {
+      name: "Jason Wang",
+      webpage: "https://web.njit.edu/~wangj/",
+      areas: ["Artificial Intelligence", "Computer Vision", "Machine Learning", "Solar Physics", "Space Weather"]
+    }
+  ];
+
+  const allAreas = [...new Set(facultyData.flatMap(f => f.areas))].sort();
+
+  const filteredFaculty = selectedArea === 'all' 
+    ? facultyData
+    : facultyData.filter(f => f.areas.includes(selectedArea));
+
+  return (
+    <div className="min-h-screen flex flex-col">
+      <header className="bg-white shadow">
+        <div className="max-w-6xl mx-auto px-6 py-2 flex justify-between items-center">
+          <div className="flex items-center">
+            <a href="https://www.njit.edu" className="mr-4">
+              <img 
+                src="/api/placeholder/50/50" 
+                alt="NJIT logo" 
+                className="h-12"
+              />
+            </a>
+            <h2 className="text-lg font-normal text-[#333333]">
+              <a href="/" className="no-underline text-[#333333] hover:text-[#333333]">
+                Department of Computer Science
+              </a>
+            </h2>
+          </div>
+        </div>
+      </header>
+
+      <main className="flex-grow bg-white">
+        <div className="max-w-6xl mx-auto p-6">
+          <h1 className="text-3xl font-bold mb-2 text-[#333333]">Faculty Directory</h1>
+          <h2 className="text-xl font-normal mb-6 text-[#333333]">Research Areas and Expertise</h2>
+          
+          <div className="mb-8">
+            <div className="flex flex-wrap gap-2">
+              <Button 
+                variant={selectedArea === 'all' ? "default" : "outline"}
+                onClick={() => setSelectedArea('all')}
+                className="mr-2"
+              >
+                All Areas
+              </Button>
+              {allAreas.map(area => (
+                <Button
+                  key={area}
+                  variant={selectedArea === area ? "default" : "outline"}
+                  onClick={() => setSelectedArea(area)}
+                  className="mr-2"
+                >
+                  {area}
+                </Button>
+              ))}
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {filteredFaculty.map(faculty => (
+              <Card key={faculty.name} className="hover:shadow-lg transition-shadow">
+                <CardHeader>
+                  <CardTitle className="flex items-center justify-between">
+                    <span className="text-[#C3001D] font-medium">{faculty.name}</span>
+                    <a 
+                      href={faculty.webpage}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[#C3001D] hover:text-[#990017]"
+                    >
+                      <Globe className="w-5 h-5" />
+                    </a>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="flex flex-wrap gap-2">
+                    {faculty.areas.map(area => (
+                      <span
+                        key={area}
+                        className="inline-block px-2 py-1 text-sm bg-blue-100 text-blue-800 rounded"
+                      >
+                        {area}
+                      </span>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </main>
+    </div>
+  );
+};
+
+export default FacultyDirectory;
