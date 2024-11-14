@@ -187,6 +187,7 @@
             padding: 4px 8px;
             border-radius: 4px;
             font-size: 14px;
+            cursor: pointer;
         }
 
         .globe-icon {
@@ -608,7 +609,7 @@
                     </div>
                     <div class="research-areas">
                         ${faculty.areas.map(area => `
-                            <span class="area-tag">${area}</span>
+                            <span class="area-tag" onclick="javascript:filterFaculty('${area}')">${area}</span>
                         `).join('')}
                     </div>
                 `;
