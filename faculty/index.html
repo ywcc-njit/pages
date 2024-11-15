@@ -291,7 +291,7 @@
             countElement.textContent = `Showing ${count} faculty member${count !== 1 ? 's' : ''}`;
         }
 
-        function filterFaculty(selectedArea) {
+        window.filterFaculty = function(selectedArea) {
             // Update button styles
             document.querySelectorAll('.filter-button').forEach(button => {
                 button.className = 'filter-button';
