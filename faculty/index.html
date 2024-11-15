@@ -19,7 +19,7 @@
             margin: 0;
             padding: 0;
             background-color: white;
-        }
+        }        
 
         .main-header {
             background-color: white;
@@ -29,7 +29,7 @@
         }
 
         .header-content {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
@@ -60,9 +60,45 @@
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             padding: 20px;
+        }
+
+        .content-wrapper {
+            display: flex;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .sidebar {
+            width: 280px;
+            flex-shrink: 0;
+            position: sticky;
+            top: 20px;
+            height: calc(100vh - 140px);
+            overflow-y: auto;
+            padding-right: 15px;
+            /* Styling the scrollbar */
+            scrollbar-width: thin;
+            scrollbar-color: var(--njit-red) #f0f0f0;
+        }
+
+        .sidebar::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .sidebar::-webkit-scrollbar-track {
+            background: #f0f0f0;
+        }
+
+        .sidebar::-webkit-scrollbar-thumb {
+            background-color: var(--njit-red);
+            border-radius: 4px;
+        }
+
+        .main-content {
+            flex: 1;
         }
 
         h1 {
@@ -81,18 +117,18 @@
             font-weight: 400;
         }
 
-        .filter-container {
-            margin-bottom: 30px;
-        }
-
         .filter-button {
+            display: block;
+            width: 100%;
+            text-align: left;
             background: white;
             border: 1px solid var(--njit-light-gray);
-            padding: 8px 16px;
-            margin: 0 8px 8px 0;
+            padding: 10px 15px;
+            margin-bottom: 8px;
             border-radius: 4px;
             cursor: pointer;
             transition: all 0.3s ease;
+            font-size: 14px;
         }
 
         .filter-button:hover {
@@ -100,7 +136,7 @@
         }
 
         .filter-button.active {
-            background: var(--njit-red);
+            background: linear-gradient(45deg, #8B0000, var(--njit-red));
             color: white;
             border-color: var(--njit-red);
         }
@@ -151,6 +187,7 @@
             padding: 4px 8px;
             border-radius: 4px;
             font-size: 14px;
+            cursor: pointer;
         }
 
         .globe-icon {
@@ -163,7 +200,24 @@
             transform: scale(1.1);
         }
 
+        .selected-count {
+            color: var(--njit-text);
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
         @media (max-width: 768px) {
+            .content-wrapper {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: static;
+                margin-bottom: 20px;
+            }
+            
             .directory {
                 grid-template-columns: 1fr;
             }
@@ -186,148 +240,33 @@
                 <a href="https://www.njit.edu">
                     <img src="../pics/njit_logo_1.png" alt="NJIT logo">
                 </a>
-                <h2 class="title"><a href="/">Department of Computer Science</a></h2>
+                <h2 class="title"><a href="https://cs.njit.edu">Department of Computer Science</a></h2>
             </div>
         </div>
     </header>
 
     <div class="container">
-        <h1>CS Faculty Research Areas</h1>
-        
-        
-        <div class="filter-container" id="filter-buttons">
-            <!-- Filter buttons will be added here -->
-        </div>
-
-        <div class="directory" id="faculty-directory">
-            <!-- Faculty cards will be added here -->
+        <h1>CS & Joint Faculty Research Areas</h1>
+        <p>Our faculty conduct research across a broad spectrum of Computer Science, from core areas to interdisciplinary frontiers</p>        
+        <div class="content-wrapper">
+            <aside class="sidebar">
+                <div class="selected-count" id="faculty-count"></div>
+                <div id="filter-buttons">
+                    <!-- Filter buttons will be added here -->
+                </div>
+            </aside>
+            
+            <main class="main-content">
+                <div class="directory" id="faculty-directory">
+                    <!-- Faculty cards will be added here -->
+                </div>
+            </main>
         </div>
     </div>
 
-    <script>
-        const facultyData = [
-            {
-                name: "David Bader",
-                webpage: "https://davidbader.net/",
-                areas: ["Artificial Intelligence", "High-Performance Computing", "Algorithms & Complexity", "Computational Biology & Bioinformatics", "Computational Science and Engineering"]
-            },
-            {
-                name: "Frank Shih",
-                webpage: "https://web.njit.edu/~shih/",
-                areas: ["Artificial Intelligence", "Computer Vision", "Machine Learning", "Natural Language Processing", "Visualization"]
-            },
-            {
-                name: "Ioannis Koutis",
-                webpage: "https://web.njit.edu/~ikoutis/",
-                areas: ["Artificial Intelligence", "Machine Learning", "Design Automation", "Algorithms & Complexity"]
-            },
-            {
-                name: "Mark Cartwright",
-                webpage: "https://markcartwright.com/",
-                areas: ["Artificial Intelligence", "Machine Learning", "Human-Computer Interaction", "Sound and Music Computing"]
-            },
-            {
-                name: "Iulian Neamtiu",
-                webpage: "https://web.njit.edu/~ineamtiu/",
-                areas: ["Machine Learning", "Computer Security", "Mobile Computing", "Programming Languages", "Software Engineering"]
-            },
-            {
-                name: "Nathan Malkin",
-                webpage: "https://malk.in",
-                areas: ["Computer Security", "Human-Computer Interaction"]
-            },
-            {
-                name: "Shantanu Sharma",
-                webpage: "https://web.njit.edu/~ss797/",
-                areas: ["Computer Security", "Databases", "Cryptography"]
-            },
-            {
-                name: "Zephyr Yao",
-                webpage: "https://web.njit.edu/~zy8/",
-                areas: ["Computer Security", "Mobile Computing", "Operating Systems"]
-            },
-            {
-                name: "Jason Wang",
-                webpage: "https://web.njit.edu/~wangj/",
-                areas: ["Artificial Intelligence", "Computer Vision", "Machine Learning", "Solar Physics", "Space Weather"]
-            },
-            {
-                name: "Jing Li",
-                webpage: "https://scholar.google.com/citations?user=eFjZ6jAAAAAJ&hl=en",
-                areas: ["Artificial Intelligence", "Design Automation", "Embedded & Real-Time Systems", "High-Performance Computing", "Algorithms & Complexity"]
-            },
-            {
-                name: "Cristian Borcea",
-                webpage: "https://web.njit.edu/~borcea/",
-                areas: ["Machine Learning", "The Web & Information Retrieval", "Computer Security", "Mobile Computing"]
-            },
-            {
-                name: "Reza Curtmola",
-                webpage: "https://web.njit.edu/~crix/",
-                areas: ["Computer Security", "Cryptography", "Privacy Enhancing Technologies"]
-            },
-            {
-                name: "Martin Kellogg",
-                webpage: "https://kelloggm.github.io/martinjkellogg.com/",
-                areas: ["Programming Languages", "Software Engineering"]
-            },
-            {
-                name: "James Geller",
-                webpage: "https://web.njit.edu/~geller/",
-                areas: ["Artificial Intelligence", "Medical Informatics", "Knowledge Graphs"]
-            },
-            {
-                name: "Alex Gerbessiotis",
-                webpage: "https://web.njit.edu/~alexg/",
-                areas: ["High-Performance Computing", "Algorithms & Complexity", "Economics & Computation"]
-            },
-            {
-                name: "Tomer Weiss",
-                webpage: "https://tomerwei.github.io/",
-                areas: ["Artificial Intelligence", "Computer Vision", "Computer Graphics", "Visualization"]
-            },
-            {
-                name: "Lijing Wang",
-                webpage: "https://christa60.github.io/",
-                areas: ["Artificial Intelligence", "Machine Learning", "Natural Language Processing", "Computational Biology & Bioinformatics", "Medical Informatics"]
-            },
-            {
-                name: "Chase Wu",
-                webpage: "https://web.njit.edu/~chasewu/",
-                areas: ["Machine Learning", "Computer Networks", "High-Performance Computing", "Algorithms & Complexity"]
-            },
-            {
-                name: "Salam Daher",
-                webpage: "https://vitalhsnjit.com/",
-                areas: ["Computer Graphics", "Computer Science Education", "Human-Computer Interaction", "Medical Informatics", "Visualization"]
-            },
-            {
-                name: "Chengjun Liu",
-                webpage: "https://web.njit.edu/~cliu",
-                areas: ["Artificial Intelligence", "Computer Vision", "Machine Learning"]
-            },
-            {
-                name: "Xiaoning Ding",
-                webpage: "https://web.njit.edu/~dingxn",
-                areas: ["Computer Architecture", "High-Performance Computing", "Operating Systems", "Cloud Computing"]
-            },
-            {
-                name: "Baruch Schieber",
-                webpage: "https://sbarnjit.github.io/",
-                areas: ["The Web & Information Retrieval", "Databases", "Algorithms & Complexity", "Computational Biology & Bioinformatics"]
-            },
-            {
-                name: "Margarita Vinnikov",
-                webpage: "https://www.margaritavinnikov.com/",
-                areas: ["Computer Graphics", "Computer Science Education", "Human-Computer Interaction", "Visualization", "Extended Reality"]
-            },
-            {
-                name: "Kasthuri Jayarajah",
-                webpage: "https://kjayarajah.github.io",
-                areas: ["Artificial Intelligence", "Mobile Computing", "Human-Computer Interaction", "Robotics"]
-            }
-        ]; 
-        
+    <script type="module">
+        import { facultyData } from '../data/cs-faculty.js'; 
+       
         // Get all unique research areas
         const allAreas = [...new Set(facultyData.flatMap(f => f.areas))].sort();
 
@@ -347,6 +286,11 @@
             filterContainer.appendChild(button);
         });
 
+        function updateFacultyCount(count) {
+            const countElement = document.getElementById('faculty-count');
+            countElement.textContent = `Showing ${count} faculty member${count !== 1 ? 's' : ''}`;
+        }
+
         function filterFaculty(selectedArea) {
             // Update button styles
             document.querySelectorAll('.filter-button').forEach(button => {
@@ -361,6 +305,7 @@
                 ? facultyData 
                 : facultyData.filter(f => f.areas.includes(selectedArea));
             renderFaculty(filteredFaculty);
+            updateFacultyCount(filteredFaculty.length);
         }
 
         function renderFaculty(facultyToShow) {
@@ -383,7 +328,7 @@
                     </div>
                     <div class="research-areas">
                         ${faculty.areas.map(area => `
-                            <span class="area-tag">${area}</span>
+                            <span class="area-tag" onclick="javascript:filterFaculty('${area}')">${area}</span>
                         `).join('')}
                     </div>
                 `;
@@ -392,7 +337,14 @@
         }
 
         // Initial render
-        renderFaculty(facultyData);
+        filterFaculty('all');
     </script>
+
+        <footer class="main-header" style="margin-top: 30px;">
+            <div class="header-content" style="background: linear-gradient(45deg, #8B0000, var(--njit-red)); padding: 20px 0;">
+                <div style="width: 100%; height: 50px;"></div>
+            </div>
+        </footer>
+
 </body>
 </html>
