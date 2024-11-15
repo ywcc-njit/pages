@@ -214,6 +214,7 @@ export const facultyData = [
       "Artificial intelligence",
       "Computer vision",
       "Machine learning",
+      "Solar Physics and Space Weather",
       "Solar Physics and Space Weather"
     ]
   },
