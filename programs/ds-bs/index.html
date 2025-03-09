@@ -51,11 +51,23 @@
             max-width: 1000px;
             margin: 0 auto;
         }
+        .marketing {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #D3232E;
+            font-size: 1.1em;
+            line-height: 1.7;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>BS in Data Science Curriculum</h1>
+        <h1>BS in Data Science Curriculum with Prerequisites</h1>
+        
+        <div class="marketing">
+            <p>NJIT's Bachelor of Science in Data Science program equips students with the rigorous mathematical foundation, computational skills, and domain expertise required to excel in today's data-driven world. This structured curriculum progresses from foundational mathematics and computing principles through advanced machine learning techniques and big data applications, with specialized concentration tracks in mathematics, biology, finance, AI, and data mining algorithms. Students develop practical expertise through hands-on laboratory sessions, working with real-world datasets and implementing end-to-end data science solutions. Designed in alignment with industry needs and academic best practices, this program prepares graduates to solve complex problems across diverse sectors—from healthcare and financial services to technology and scientific research—with both technical proficiency and ethical responsibility. Whether pursuing careers as data scientists, analysts, or researchers, or continuing to advanced studies, NJIT students gain the comprehensive skill set needed to derive meaningful insights from data and make significant contributions to their fields.</p>
+        </div>
         
         <p>This curriculum outlines the required courses and prerequisites for the Bachelor of Science in Data Science program, including various concentration tracks.</p>
         
@@ -219,7 +231,9 @@
             <h3>Semester 7 (15 credits)</h3>
             <div class="course">
                 <strong><a href="#DS444">DS 444: Computing with Big Data</a></strong>
-                <div class="prerequisites">Prerequisites: DS 114</div>
+                <div class="prerequisites">
+                    Prerequisites: DS 280
+                </div>
             </div>
             <div class="course">
                 <strong>DS 492</strong>
@@ -311,7 +325,7 @@
             </div>
             <div class="course">
                 <strong>BNFO 402: Algorithms for Bioinformatics</strong>
-                <div class="prerequisites">Prerequisites: None listed</div>
+                <div class="prerequisites">Prerequisites: Not specified in provided content</div>
             </div>
             
             <h3>Finance Track</h3>
@@ -445,9 +459,9 @@
             <div id="DS444" class="course">
                 <h3>DS 444: Computing with Big Data</h3>
                 <div class="prerequisites">
-                    Prerequisites: DS 114
+                    Prerequisites: DS 280
                 </div>
-                <p>Introduction to techniques and practices for working with large-scale data in data science applications. This course focuses on leveraging APIs and services that interface with big data infrastructure rather than building these systems from scratch. Topics include accessing distributed storage systems, working with streaming data APIs, query interfaces for data lakes, cloud-based analytics services, and scalable machine learning platforms. Students will gain hands-on experience using Python libraries and frameworks to interact with big data ecosystems including Hadoop-based services, NoSQL databases, and cloud-based data warehouses. Laboratory sessions provide practical experience with real-world data pipelines, emphasizing how to efficiently extract, transform, and analyze massive datasets through programmatic interfaces. Course projects require implementing end-to-end data science workflows that connect to large-scale data sources, perform distributed computations, and visualize results from big data systems without managing the underlying infrastructure directly.</p>
+                <p>Comprehensive introduction to big data technologies and MLOps practices for deploying data science solutions at scale. This course focuses on both data engineering principles and the practical deployment of machine learning models. Topics include distributed computing frameworks, data lake architecture, cloud-based machine learning platforms, containerization with Docker, orchestration with Kubernetes, model deployment pipelines, model monitoring, and version control for data and models. Students will gain hands-on experience using cloud services to develop, deploy, and maintain scalable data science applications. Laboratory sessions provide practical experience with implementing end-to-end MLOps workflows, including model deployment, A/B testing, monitoring for drift, and automated retraining pipelines. Course projects require students to design and implement production-grade data science solutions that address real-world challenges while considering performance, scalability, reliability, and cost optimization. Emphasis is placed on industry best practices for taking data science models from development to production environments.</p>
             </div>
         </div>
     </div>
