@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS in Data Science Curriculum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #D3232E;
+        }
+        .semester {
+            margin-bottom: 30px;
+            border-left: 4px solid #D3232E;
+            padding-left: 15px;
+        }
+        .course {
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+        .prerequisites {
+            font-size: 0.9em;
+            color: #555;
+            margin-top: 5px;
+        }
+        .track {
+            margin-top: 40px;
+            border-top: 2px solid #ddd;
+            padding-top: 20px;
+        }
+        a {
+            color: #D3232E;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .credits {
+            font-style: italic;
+            color: #666;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>BS in Data Science Curriculum with Prerequisites</h1>
+        
+        <p>This curriculum outlines the required courses and prerequisites for the Bachelor of Science in Data Science program, including various concentration tracks.</p>
+        
+        <h2>Core Curriculum by Semester</h2>
+        
+        <div class="semester">
+            <h3>Semester 1 (14 credits)</h3>
+            <div class="course">
+                <strong>DS 100</strong>
+                <div class="prerequisites">Prerequisites: None listed</div>
+            </div>
+            <div class="course">
+                <strong>MATH 111: Calculus I</strong>
+                <div class="prerequisites">Prerequisites: None listed</div>
+            </div>
+            <div class="course">
+                <strong>PHYS 111</strong>
+                <div class="prerequisites">Prerequisites: None listed</div>
+            </div>
+            <div class="course">
+                <strong>PHYS 111A</strong>
+                <div class="prerequisites">Prerequisites: None listed</div>
+            </div>
+            <div class="course">
+                <strong>ENGL 101</strong>
+                <div class="prerequisites">Prerequisites: None listed</div>
+            </div>
+            <div class="course">
+                <strong>FYS SEM</strong>
+                <div class="prerequisites">Prerequisites: None listed</div>
+            </div>
+        </div>
+        
+        <div class="semester">
+            <h3>Semester 2 (14 credits)</h3>
+            <div class="course">
+                <strong><a href="#DS113">DS 113: Computing Foundations for Data Science</a></strong>
+                <div class="prerequisites">Prerequisites: DS 100 or equivalent programming experience<br>
+                Corequisite: MATH 112 recommended</div>
+            </div>
+            <div class="course">
+                <strong>MATH 112: Calculus II</strong>
+                <div class="prerequisites">Prerequisites: MATH 111 with a grade of C or better</div>
+            </div>
+            <div class="course">
+                <strong>PHYS 121</strong>
+                <div class="prerequisites">Prerequisites: None listed in content</div>
+            </div>
+            <div class="course">
+                <strong>PHYS 121A</strong>
+                <div class="prerequisites">Prerequisites: None listed in content</div>
+            </div>
+            <div class="course">
+                <strong>ENGL 102</strong>
+                <div class="prerequisites">Prerequisites: None listed in content</div>
+            </div>
+        </div>
+        
+        <div class="semester">
+            <h3>Semester 3 (15 credits)</h3>
+            <div class="course">
+                <strong><a href="#DS114">DS 114: Computing Foundations for Data Science II</a></strong>
+                <div class="prerequisites">Prerequisites: DS 113 and MATH 112 with a grade of C or better<br>
+                Corequisite: MATH 337</div>
+            </div>
+            <div class="course">
+                <strong>MATH 244: Introduction to Probability Theory</strong>
+                <div class="prerequisites">Prerequisites: MATH 112 with a grade of C or better</div>
+            </div>
+            <div class="course">
+                <strong>MATH 337: Linear Algebra</strong>
+                <div class="prerequisites">Prerequisites: MATH 112 with a grade of C or better</div>
+            </div>
+            <div class="course">
+                <strong>History and Humanities GER 200-level</strong>
+                <div class="prerequisites">Prerequisites: None listed</div>
+            </div>
+            <div class="course">
+                <strong>Social Sciences GER</strong>
+                <div class="prerequisites">Prerequisites: None listed</div>
+            </div>
+        </div>
+        
+        <div class="semester">
+            <h3>Semester 4 (16 credits)</h3>
+            <div class="course">
+                <strong><a href="#DS240">DS 240: Data Analytics with Python</a></strong>
+                <div class="prerequisites">Prerequisites: None explicitly listed in curriculum</div>
+            </div>
+            <div class="course">
+                <strong>DS 350: Data Visualization</strong>
+                <div class="prerequisites">Prerequisites: None listed</div>
+            </div>
+            <div class="course">
+                <strong>IS 350</strong>
+                <div class="prerequisites">Prerequisites: None listed</div>
+            </div>
+            <div class="course">
+                <strong>MATH 341: Statistical Methods II</strong>
+                <div class="prerequisites">Prerequisites: MATH 244 with a grade of C or better or MATH 333 with a grade of C or better</div>
+            </div>
+            <div class="course">
+                <strong>YWCC 205</strong>
+                <div class="prerequisites">Prerequisites: None listed</div>
+            </div>
+            <div class="course">
+                <strong>Data Science Elective 1</strong>
+                <div class="prerequisites">Prerequisites: Dependent on chosen course</div>
+            </div>
+        </div>
+        
+        <div class="semester">
+            <h3>Semester 5 (16 credits)</h3>
+            <div class="course">
+                <strong><a href="#DS288">DS 288: Programming with APIs</a></strong>
+                <div class="prerequisites">Prerequisites: DS 113 or equivalent Python programming experience</div>
+            </div>
+            <div class="course">
+                <strong><a href="#DS331">DS 331: Elements of Data Management</a></strong>
+                <div class="prerequisites">Prerequisites: DS 240 or equivalent data analytics experience</div>
+            </div>
+            <div class="course">
+                <strong>CS 370</strong>
+                <div class="prerequisites">Prerequisites: None listed</div>
+            </div>
+            <div class="course">
+                <strong>CCOM 312 or 313</strong>
+                <div class="prerequisites">Prerequisites: None listed</div>
+            </div>
+            <div class="course">
+                <strong>Data Science Elective 2</strong>
+                <div class="prerequisites">Prerequisites: Dependent on chosen course</div>
+            </div>
+        </div>
+        
+        <div class="semester">
+            <h3>Semester 6 (15 credits)</h3>
+            <div class="course">
+                <strong><a href="#DS335-Unsupervised">DS 335: Unsupervised Algorithms for Data Science</a></strong>
+                <div class="prerequisites">Prerequisites: DS 240</div>
+            </div>
+            <div class="course">
+                <strong><a href="#DS375">DS 375: Supervised Machine Learning with Applications</a></strong>
+                <div class="prerequisites">Prerequisites: DS 240</div>
+            </div>
+            <div class="course">
+                <strong>History and Humanities 300+ level</strong>
+                <div class="prerequisites">Prerequisites: None listed</div>
+            </div>
+            <div class="course">
+                <strong>YWCC 307</strong>
+                <div class="prerequisites">Prerequisites: None listed</div>
+            </div>
+            <div class="course">
+                <strong>Data Science Elective 3</strong>
+                <div class="prerequisites">Prerequisites: Dependent on chosen course</div>
+            </div>
+        </div>
+        
+        <div class="semester">
+            <h3>Semester 7 (15 credits)</h3>
+            <div class="course">
+                <strong><a href="#DS444">DS 444: Computing with Big Data</a></strong>
+                <div class="prerequisites">Prerequisites: DS 114</div>
+            </div>
+            <div class="course">
+                <strong>DS 492</strong>
+                <div class="prerequisites">Prerequisites: None listed</div>
+            </div>
+            <div class="course">
+                <strong>MATH 447: Applied Time Series Analysis</strong>
+                <div class="prerequisites">Prerequisites: MATH 341 with a grade of C or better or MATH 333 with a grade of C or better</div>
+            </div>
+            <div class="course">
+                <strong>DS Elective 4</strong>
+                <div class="prerequisites">Prerequisites: Dependent on chosen course</div>
+            </div>
+            <div class="course">
+                <strong>DS Elective 5</strong>
+                <div class="prerequisites">Prerequisites: Dependent on chosen course</div>
+            </div>
+        </div>
+        
+        <div class="semester">
+            <h3>Semester 8 (15 credits)</h3>
+            <div class="course">
+                <strong>Humanities and Social Sciences GER</strong>
+                <div class="prerequisites">Prerequisites: None listed</div>
+            </div>
+            <div class="course">
+                <strong>DS 400: Scientific Foundations of Machine Learning</strong>
+                <div class="prerequisites">Prerequisites: None listed</div>
+            </div>
+            <div class="course">
+                <strong>Free Elective I</strong>
+                <div class="prerequisites">Prerequisites: None listed</div>
+            </div>
+            <div class="course">
+                <strong>DS Elective 6</strong>
+                <div class="prerequisites">Prerequisites: Dependent on chosen course</div>
+            </div>
+        </div>
+        
+        <div class="track">
+            <h2>Elective Tracks with Prerequisites</h2>
+            
+            <h3>Mathematics for DS Track</h3>
+            <div class="course">
+                <strong>MATH 213: Calculus III</strong>
+                <div class="prerequisites">Prerequisites: MATH 112 with a grade of C or better</div>
+            </div>
+            <div class="course">
+                <strong>MATH 222: Differential Equations</strong>
+                <div class="prerequisites">Prerequisites: MATH 112 with a grade of C or better</div>
+            </div>
+            <div class="course">
+                <strong>MATH 391: Numerical Linear Algebra</strong>
+                <div class="prerequisites">Prerequisites: MATH 337 with a grade of C or better and DS 113 with a grade of C or better</div>
+            </div>
+            <div class="course">
+                <strong>MATH 340: Applied Numerical Methods</strong>
+                <div class="prerequisites">Prerequisites: MATH 211 with a grade of C or better or MATH 213 with a grade of C or better</div>
+            </div>
+            <div class="course">
+                <strong>MATH 448: Stochastic Simulation</strong>
+                <div class="prerequisites">Prerequisites: MATH 340 and either MATH 244 or MATH 333 with a grade of C or better</div>
+            </div>
+            <div class="course">
+                <strong>MATH 453: High-Performance Numerical Computing</strong>
+                <div class="prerequisites">Prerequisites: MATH 340 with a grade of C or better and MATH 391 with a grade of C or better</div>
+            </div>
+            
+            <h3>DS-BIOL Track</h3>
+            <div class="course">
+                <strong>BIOL 200: Concepts in Biology</strong>
+                <div class="prerequisites">Prerequisites: MATH 107 or MATH 108 or Co-requisites: MATH 110, or MATH 111 or MATH 138</div>
+            </div>
+            <div class="course">
+                <strong>BIOL 201/202: Foundations of Biology: Cell & Molecular</strong>
+                <div class="prerequisites">Prerequisites: BIOL 200 or R120 200 and CHEM 121 or CHEM 125</div>
+            </div>
+            <div class="course">
+                <strong>BIOL 205/206: Foundations of Biology: Ecology and Evolution</strong>
+                <div class="prerequisites">Prerequisites: BIOL 200 with a C or better; Co-requisites: BIOL 206/205</div>
+            </div>
+            <div class="course">
+                <strong>BIOL 376: Biological Applications of Geographic Information Systems</strong>
+                <div class="prerequisites">Prerequisites: BIOL 205, BIOL 201</div>
+            </div>
+            <div class="course">
+                <strong>BIOL 432: Introduction to Computational Neuroscience</strong>
+                <div class="prerequisites">Prerequisites: MATH 222; BIOL 315; BNFO 135 or CS 101 or CS 100 or CS 115</div>
+            </div>
+            <div class="course">
+                <strong>BNFO 402: Algorithms for Bioinformatics</strong>
+                <div class="prerequisites">Prerequisites: None listed</div>
+            </div>
+            
+            <h3>Finance Track</h3>
+            <div class="course">
+                <strong>MGMT 116: Quantitative Analysis for Business</strong>
+                <div class="prerequisites">Prerequisites: None listed</div>
+            </div>
+            <div class="course">
+                <strong>MGMT 216: Business Data Analytics</strong>
+                <div class="prerequisites">Prerequisites: MGMT 116 or MATH 105</div>
+            </div>
+            <div class="course">
+                <strong>FIN 218: Financial Markets and Institutions</strong>
+                <div class="prerequisites">Prerequisites: None listed</div>
+            </div>
+            <div class="course">
+                <strong>FIN 310: Data-Driven Financial Modeling</strong>
+                <div class="prerequisites">Prerequisites: MGMT 216 and FIN 218 or FIN 315</div>
+            </div>
+            <div class="course">
+                <strong>FIN 320: Financial Data Analytics</strong>
+                <div class="prerequisites">Prerequisites: CS 100 or CS 103, MATH 333 or MGMT 216, and FIN 218</div>
+            </div>
+            
+            <h3>AI and Mining Algorithm Tracks</h3>
+            <p>Specific prerequisites for these courses are not clearly listed in the provided content.</p>
+        </div>
+        
+        <div class="track">
+            <h2>New Course Descriptions</h2>
+            
+            <div id="DS113" class="course">
+                <h3>DS 113: Computing Foundations for Data Science</h3>
+                <div class="prerequisites">
+                    Prerequisites: DS 100 or equivalent programming experience<br>
+                    Corequisite: MATH 112 recommended
+                </div>
+                <p>Introduction to computational methods for data science using Python. Topics include implementing numerical integration techniques, solving application problems using definite integrals, computing infinite series approximations, working with exponential and logarithmic functions in data contexts, analyzing transcendental functions, visualizing polar coordinates, and computational approaches to conic sections. Laboratory sessions provide hands-on experience applying Python libraries such as NumPy, SciPy, Matplotlib, and SymPy to reinforce calculus concepts through programming.</p>
+            </div>
+            
+            <div id="DS114" class="course">
+                <h3>DS 114: Computing Foundations for Data Science II</h3>
+                <div class="prerequisites">
+                    Prerequisites: DS 113 and MATH 112 with a grade of C or better<br>
+                    Corequisite: MATH 337
+                </div>
+                <p>Computational techniques in Python for data science with emphasis on linear algebra implementations and applications. Topics include matrix operations and manipulation using NumPy, implementing vector space operations, coding linear transformations, solving systems of linear equations programmatically, computing eigenvalues and eigenvectors, and applying these concepts to data science problems. Laboratory sessions reinforce mathematical concepts by visualizing abstract linear algebra operations, demonstrating the geometric interpretation of transformations, providing concrete computational examples of theoretical concepts, and showing how matrix decompositions connect to real-world data analysis.</p>
+            </div>
+            
+            <div id="DS240" class="course">
+                <h3>DS 240: Data Analytics with Python</h3>
+                <div class="prerequisites">
+                    Prerequisites: None explicitly listed in curriculum
+                </div>
+                <p>Comprehensive introduction to data analytics using Python. Topics include advanced data manipulation and preprocessing techniques using pandas, data cleaning and transformation, exploratory data analysis, visualization with Matplotlib and Seaborn, and applying statistical methods for pattern recognition. Students will gain practical experience implementing black-box analytics tools including regression models, classification algorithms, clustering methods, and time series analysis. Laboratory sessions provide hands-on experience with real-world datasets, focusing on the entire analytics workflow from data acquisition to visualization and interpretation. Emphasis on best practices for reproducible analysis, assessing model performance, and communicating insights effectively through data storytelling. Course projects require students to develop end-to-end analytics solutions for business and scientific applications.</p>
+            </div>
+            
+            <div id="DS288" class="course">
+                <h3>DS 288: Programming with APIs</h3>
+                <div class="prerequisites">
+                    Prerequisites: DS 113 or equivalent Python programming experience
+                </div>
+                <p>Introduction to Application Programming Interfaces (APIs) with emphasis on data retrieval and analysis in Python. Topics include RESTful API fundamentals, authentication methods, request-response cycles, data parsing, and error handling. Students will gain practical experience interacting with various API services including Large Language Models (OpenAI, Anthropic), financial data sources (Alpha Vantage, Yahoo Finance), social media platforms, and public data repositories. The course introduces advanced programming concepts in an LLM-aided environment, with supplementary modules in Java and C for cross-language API implementation. Laboratory sessions focus on building real-world applications that leverage APIs for data collection, natural language processing, automated trading strategies, and intelligent agents. Students will complete projects demonstrating their ability to design, implement, and document API-driven solutions for contemporary data challenges.</p>
+            </div>
+            
+            <div id="DS331" class="course">
+                <h3>DS 331: Elements of Data Management</h3>
+                <div class="prerequisites">
+                    Prerequisites: DS 240 or equivalent data analytics experience
+                </div>
+                <p>Comprehensive introduction to modern data management principles and practices with focus on business intelligence applications. Topics include data warehouse design and implementation, dimensional modeling, ETL (Extract, Transform, Load) processes, OLAP operations, and cloud-based data storage solutions. Students will gain practical experience with spreadsheet tools for data manipulation, analysis, and visualization, including advanced formulas, pivot tables, and dashboard creation. The course introduces application development using JavaScript and spreadsheet-integrated scripting to create interactive data solutions and custom functions that extend spreadsheet capabilities. Laboratory sessions provide hands-on experience with cloud platform tools for creating data pipelines, implementing data governance practices, and developing browser-based data applications. Students will complete projects demonstrating their ability to design and implement end-to-end data management solutions that connect cloud data sources to actionable business intelligence.</p>
+            </div>
+            
+            <div id="DS335-Unsupervised" class="course">
+                <h3>DS 335: Unsupervised Algorithms for Data Science</h3>
+                <div class="prerequisites">
+                    Prerequisites: DS 240
+                </div>
+                <p>Comprehensive exploration of unsupervised learning algorithms and their applications in data science. Topics include clustering techniques (K-means, hierarchical, DBSCAN, Gaussian mixture models), dimensionality reduction methods (PCA, t-SNE, UMAP), anomaly detection, association rule learning, and latent variable models. The course examines theoretical foundations including distance metrics, density estimation, manifold learning, and information theory while emphasizing practical implementation in Python. Students will learn to evaluate unsupervised model performance, interpret results, and select appropriate algorithms for different data types and problem domains. Laboratory sessions provide hands-on experience applying these techniques to real-world datasets in areas such as customer segmentation, image processing, recommendation systems, and text analysis. Course projects require students to design and implement end-to-end unsupervised learning pipelines, from data preparation through analysis and visualization to insight generation.</p>
+            </div>
+            
+            <div id="DS375" class="course">
+                <h3>DS 375: Supervised Machine Learning with Applications</h3>
+                <div class="prerequisites">
+                    Prerequisites: DS 240
+                </div>
+                <p>Comprehensive study of supervised learning algorithms and methodologies for predictive modeling. Topics include linear and logistic regression, decision trees, random forests, gradient boosting, support vector machines, neural networks, and ensemble methods. The course explores key concepts including bias-variance tradeoff, overfitting, regularization techniques, cross-validation, and hyperparameter tuning. Students will gain practical experience implementing these algorithms in Python using scikit-learn and TensorFlow/PyTorch frameworks. Laboratory sessions focus on the complete machine learning workflow including data preprocessing, feature engineering, model training, evaluation metrics (accuracy, precision, recall, F1-score, ROC curves), and model interpretation techniques. Emphasis on real-world applications across domains such as finance, healthcare, marketing, and natural language processing. Course projects require students to develop end-to-end supervised learning solutions that address practical prediction problems on structured and unstructured data.</p>
+            </div>
+            
+            <div id="DS444" class="course">
+                <h3>DS 444: Computing with Big Data</h3>
+                <div class="prerequisites">
+                    Prerequisites: DS 114
+                </div>
+                <p>Introduction to techniques and practices for working with large-scale data in data science applications. This course focuses on leveraging APIs and services that interface with big data infrastructure rather than building these systems from scratch. Topics include accessing distributed storage systems, working with streaming data APIs, query interfaces for data lakes, cloud-based analytics services, and scalable machine learning platforms. Students will gain hands-on experience using Python libraries and frameworks to interact with big data ecosystems including Hadoop-based services, NoSQL databases, and cloud-based data warehouses. Laboratory sessions provide practical experience with real-world data pipelines, emphasizing how to efficiently extract, transform, and analyze massive datasets through programmatic interfaces. Course projects require implementing end-to-end data science workflows that connect to large-scale data sources, perform distributed computations, and visualize results from big data systems without managing the underlying infrastructure directly.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
