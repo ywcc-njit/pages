@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NJIT M.S. in Bioinformatics</title>
+    <style>
+        :root {
+            --njit-red: #c3232a;
+            --njit-red-dark: #9a1c22;
+            --njit-red-light: #e6575c;
+            --njit-red-lighter: #f9d7d8;
+            --text-dark: #333333;
+            --text-light: #ffffff;
+            --section-bg: #f5f5f5;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            color: var(--text-dark);
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+        
+        header {
+            background-color: var(--njit-red);
+            color: var(--text-light);
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+        
+        .container {
+            padding: 2rem;
+        }
+        
+        section {
+            margin-bottom: 2.5rem;
+        }
+        
+        h2 {
+            color: var(--njit-red);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            border-bottom: 3px solid var(--njit-red-light);
+        }
+        
+        h3 {
+            color: var(--njit-red-dark);
+            margin: 1.5rem 0 0.75rem 0;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        .card {
+            background-color: var(--section-bg);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .highlight {
+            background-color: var(--njit-red-lighter);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+        
+        ul, ol {
+            margin-left: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .course {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.75rem;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 0.75rem;
+        }
+        
+        .course-code {
+            font-weight: bold;
+            color: var(--njit-red-dark);
+            min-width: 100px;
+        }
+        
+        .course-title {
+            flex-grow: 1;
+            padding: 0 15px;
+        }
+        
+        .button {
+            display: inline-block;
+            background-color: var(--njit-red);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 1rem;
+            transition: background-color 0.3s;
+        }
+        
+        .button:hover {
+            background-color: var(--njit-red-dark);
+        }
+        
+        .notes {
+            font-size: 0.9rem;
+            font-style: italic;
+            color: #666;
+        }
+        
+        .columns {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+        
+        .column {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.5rem;
+        }
+        
+        th {
+            background-color: var(--njit-red);
+            color: white;
+            padding: 0.75rem;
+            text-align: left;
+        }
+        
+        td {
+            padding: 0.75rem;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        tr:nth-child(even) {
+            background-color: var(--njit-red-lighter);
+        }
+        
+        footer {
+            background-color: var(--njit-red-dark);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>M.S. in Bioinformatics</h1>
+        <div class="subtitle">Ying Wu College of Computing · New Jersey Institute of Technology</div>
+    </header>
+    
+    <div class="container">
+        <section>
+            <h2>Program Overview</h2>
+            <p>The interdisciplinary M.S. in Bioinformatics program (MS-BNFO) addresses the rapidly evolving intersection of biological sciences and computational methods. The curriculum provides a strong foundation in computational tools for complex biological problems, with options for further specialization in biostatistics and computational aspects of neuroscience.</p>
+            
+            <div class="highlight">
+                <h3>Program Highlights</h3>
+                <ul>
+                    <li>30-credit program requiring completion of 10 courses</li>
+                    <li>Option to pursue research through Master's Project and Thesis</li>
+                    <li>Specialized learning paths aligned with graduate certificates</li>
+                    <li>Interdisciplinary curriculum spanning computer science, mathematics, and biology</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Prerequisites</h2>
+            <div class="card">
+                <p>Applicants should have a bachelor's degree from an accredited University, in Biology or STEM. Applicants with relevant professional experience may also be accepted. Further information can be found on the <a href="https://cs.njit.edu/academics/graduate/ms-bioinf/" style="color: var(--njit-red);">program's webpage</a>.</p>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Specialized Learning Paths</h2>
+            <p>The MS in Bioinformatics program includes courses from three related graduate certificate programs:</p>
+            
+            <div class="columns">
+                <div class="column card">
+                    <h3>Certificate in Biostatistics Essentials</h3>
+                    <p>Gain expertise in statistical methods applicable to biological data analysis.</p>
+                    <a href="https://catalog.njit.edu/graduate/science-liberal-arts/mathematical-sciences/statistics-for-data-science-cert/" class="button">Learn More</a>
+                </div>
+                
+                <div class="column card">
+                    <h3>Certificate in Computer Science</h3>
+                    <p>Develop foundational computational and programming skills.</p>
+                    <a href="https://catalog.njit.edu/graduate/computing-sciences/computer-science/computer-science-cert/" class="button">Learn More</a>
+                </div>
+                
+                <div class="column card">
+                    <h3>Certificate in Neuroscience</h3>
+                    <p>Explore the computational aspects of neuroscience research.</p>
+                    <a href="https://catalog.njit.edu/graduate/science-liberal-arts/biology/neuroscience-cert/" class="button">Learn More</a>
+                </div>
+            </div>
+            
+            <p class="notes">These certificates can be earned alongside the MS degree with an appropriate selection of courses. Students are encouraged to review these program catalogs and contact the advisors of these programs.</p>
+        </section>
+        
+        <section>
+            <h2>Curriculum</h2>
+            
+            <h3>Degree Requirements</h3>
+            <p>The program requires the completion of 30 credits. The requirement is satisfied by taking 10 courses.</p>
+            <p>Students who want to pursue research can earn up to 6 of the 30 required credits by taking the BNFO 700B Masters Project possibly followed by BNFO 701B Masters Thesis. These have special requirements described in the section 'Master's Project and Thesis Policies'.</p>
+            
+            <h3>Introductory Courses</h3>
+            <p>Take at most three:</p>
+            <table>
+                <tr>
+                    <th>Course Code</th>
+                    <th>Title</th>
+                </tr>
+                <tr>
+                    <td>CS 506</td>
+                    <td>Foundations of Computer Science</td>
+                </tr>
+                <tr>
+                    <td>DS 636</td>
+                    <td>Data Analytics with R Program</td>
+                </tr>
+                <tr>
+                    <td>DS 637</td>
+                    <td>Python and Mathematics for Machine Learning</td>
+                </tr>
+                <tr>
+                    <td>MATH 615</td>
+                    <td>Approaches to Quantitative Analysis in the Life Sciences</td>
+                </tr>
+            </table>
+            
+            <h3>Required Core Courses</h3>
+            <table>
+                <tr>
+                    <th>Course Code</th>
+                    <th>Title</th>
+                </tr>
+                <tr>
+                    <td>BNFO 601</td>
+                    <td>Foundations of Bioinformatics I</td>
+                </tr>
+                <tr>
+                    <td>BNFO 602</td>
+                    <td>Foundations of Bioinformatics II</td>
+                </tr>
+                <tr>
+                    <td>BNFO 615</td>
+                    <td>Machine Learning for Bioinformatics</td>
+                </tr>
+                <tr>
+                    <td>BNFO 620</td>
+                    <td>Genomic Data Analysis</td>
+                </tr>
+                <tr>
+                    <td>DS 636</td>
+                    <td>Data Analytics with R Program</td>
+                </tr>
+                <tr>
+                    <td>MATH 663</td>
+                    <td>Introduction to Biostatistics</td>
+                </tr>
+            </table>
+            <p class="notes">The following substitutions are allowed whenever these required courses are not offered: (BNFO 615,DS 675), (MATH 663, MATH 661). In particular, MATH 661 can be taken by online students. Please consult with YWCC academic advisors.</p>
+            
+            <div class="columns">
+                <div class="column">
+                    <h3>Biology and Rutgers-Newark Electives</h3>
+                    <ul>
+                        <li>BIOL 605: Prin of Bioscience Processing</li>
+                        <li>R120 512: Cell Biology: Methods & Appl</li>
+                        <li>R120 515: Molecular Bio Of Eukaryotes</li>
+                        <li>R120 524: Cell Molec Dev</li>
+                        <li>UMD 5002: Genom Proteomics & Bioinformat</li>
+                    </ul>
+                    
+                    <h3>Computer Science Electives</h3>
+                    <ul>
+                        <li>CS 506: Foundations of Computer Science</li>
+                        <li>CS 631: Data Management System Design</li>
+                        <li>CS 632: Advanced Database System Design</li>
+                        <li>CS/DS 644: Introduction to Big Data</li>
+                    </ul>
+                </div>
+                
+                <div class="column">
+                    <h3>Biostatistics Essentials Electives</h3>
+                    <ul>
+                        <li>MATH 654: Clinical Trials Design and Analysis</li>
+                        <li>MATH 659: Survival Analysis</li>
+                        <li>MATH 662: Probability Distributions</li>
+                        <li>MATH 663: Introduction to Biostatistics</li>
+                        <li>MATH 665: Statistical Inference</li>
+                        <li>MATH 678: Statistical Methods in Data Science</li>
+                    </ul>
+                    
+                    <h3>Neuroscience Electives</h3>
+                    <ul>
+                        <li>BIOL 645: Biological Imaging Techniques</li>
+                        <li>BME 661: Neural Engineering</li>
+                        <li>BIOL 635: Intro to Comp Neuroscience</li>
+                        <li>BIOL 672: Computational Systems Biology</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <h3>Other NJIT Electives</h3>
+            <div class="columns">
+                <div class="column">
+                    <ul>
+                        <li>BIOL 630: Critical Thinking for the Life Sciences</li>
+                        <li>CHEM 673: Biochemistry</li>
+                        <li>DS 650: Data Visualization and Interpretation</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul>
+                        <li>MATH 635: Analytical Computational Neuroscience</li>
+                        <li>MATH 636: Systems Computational Neuroscience</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <h3>MS Project and Thesis</h3>
+            <ul>
+                <li>BNFO 700B: Masters Project</li>
+                <li>BNFO 701B: Masters Thesis</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Master's Project and Thesis Policies</h2>
+            <div class="card">
+                <p>The contents of this section apply only to students who elect to do a Masters Project (BNFO 700B) or a Masters Thesis (BNFO 701B).</p>
+                
+                <h3>Finding a Research Advisor</h3>
+                <p>Students must first identify a research advisor holding an appointment at the ranks of Assistant Professor, Associate Professor, Professor, or Distinguished Professor.</p>
+                <p>In order to identify a research advisor, students are encouraged to directly contact professors. Professors may not always have availability for conducting an MS project/thesis. Students are therefore encouraged to start looking for an advisor as early as possible, especially if they are considering pursuing a Master's Thesis that takes two semesters.</p>
+                
+                <h3>Registration Requirements</h3>
+                <ul>
+                    <li><strong>Master's Project:</strong> With permission of their research advisor students must register in the BNFO 700B Master's Project course. To register for a Master's Project, students must have completed at least 9 credits and must be in good standing.</li>
+                    <li><strong>Master's Thesis:</strong> With permission of their research advisor, students must first register in the BNFO 700B Masters Project course. They must receive a satisfactory (S) grade in BNFO 700B before BNFO 701B Masters Thesis registration in the immediately following semester, with the same advisor. The MS topic should be continuation of the work done in BNFO 700B.</li>
+                </ul>
+                
+                <h3>Thesis Requirements</h3>
+                <ul>
+                    <li>An MS Thesis Committee must be formed, according to these requirements set forth by the Office of Graduate Studies.</li>
+                    <li>A written thesis must be submitted. The thesis must adhere to the style requirements set forth by the Office of Graduate Studies.</li>
+                    <li>An oral defense is required. The defense must take place before the last day of the Examination period.</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>© New Jersey Institute of Technology</p>
+        <p>Ying Wu College of Computing | Department of Computer Science</p>
+        <p>University Heights, Newark, NJ 07102</p>
+        <p>Last Updated: March 11, 2025</p>
+    </footer>
+</body>
+</html>
