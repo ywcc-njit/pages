@@ -15,8 +15,8 @@
         .btn { padding: 10px 20px; border-radius: 5px; text-decoration: none; margin: 5px; display: inline-block; }
         .btn-primary { background: #c0392b; color: white; }
         .btn-secondary { background: white; color: #c0392b; border: 2px solid #c0392b; }
-        .highlights { display: flex; justify-content: space-around; text-align: center; margin: 40px 0; }
-        .highlight-box { background: white; padding: 20px; border-radius: 10px; width: 30%; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); }
+        .highlights { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; text-align: center; margin: 40px 0; }
+        .highlight-box { background: white; padding: 20px; border-radius: 10px; width: 100%; max-width: 300px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); }
         .section { background: white; padding: 20px; border-radius: 10px; margin: 20px 0; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); }
         .expandable { cursor: pointer; font-weight: bold; padding: 10px; border-bottom: 2px solid #ddd; }
         .content { display: none; padding: 10px; }
@@ -58,13 +58,17 @@
         </div>
         
         <div class="section">
-            <div class="expandable">Application Requirements</div>
-            <div class="content">All applicants are required to submit:
+            <div class="expandable">Admission Prerequisites</div>
+            <div class="content">The MS program in Computer Science requires an undergraduate degree in computing. At a minimum, such a degree must have exposed the prospective student to object-oriented languages, and to materials from at least four from the following courses:
                 <ul>
-                    <li>Transcripts from a prior degree in computing</li>
-                    <li>At least one letter of recommendation</li>
+                    <li><a href="https://www.coursera.org/specializations/discrete-mathematics">UCSD: Introduction to Discrete Mathematics for Computer Science</a></li>
+                    <li><a href="https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/">Google: Data Structures and Algorithms</a></li>
+                    <li><a href="https://www.udacity.com/course/introduction-to-operating-systems--ud923">Udacity: Introduction to Operating Systems</a></li>
+                    <li><a href="https://www.edx.org/learn/relational-databases/stanford-university-databases-relational-databases-and-sql">Stanford: Databases: Relational Databases and SQL</a></li>
+                    <li><a href="https://www.coursera.org/learn/tcpip">Coursera: Introduction to TCP/IP</a></li>
+                    <li><a href="https://www.coursera.org/specializations/mathematics-machine-learning">Imperial College London: Mathematics for Machine Learning</a></li>
                 </ul>
-                International applicants must submit standardized test scores (GRE, TOEFL, IELTS, or Duolingo). Score reports can be uploaded by the applicant.
+                <p>For students not eligible for direct admission, NJIT offers a <a href="//cs.njit.edu/graduate-certificate-computer-science" class="red-link">Graduate Certificate in Computer Science</a>, which provides a pathway to the MS program. Earning the certificate with a GPA of 3.0 or higher guarantees admission into the MS program.</p>
             </div>
         </div>
     </div>
